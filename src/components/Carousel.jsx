@@ -23,13 +23,14 @@ const Carousel = () => {
         spaceBetween={30}
         centeredSlides={true}
         autoplay={{
-          delay: 2500,
+          delay: 5000,
           disableOnInteraction: false,
         }}
         pagination={{
           clickable: true,
         }}
-        navigation={true}
+        // navigation={true}
+        loop={true}
         modules={[Autoplay, Pagination, Navigation]}
         className='mySwiper'>
         <SwiperSlide>
